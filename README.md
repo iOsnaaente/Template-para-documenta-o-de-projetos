@@ -1,13 +1,14 @@
 # <strong>Documentação para os testes de Hardware</strong>
 
-📊 📋 📝 ⭐ ✏️ 🎯 💡 ❗ ✅ ❌ 💻 🌐 🛠️ ⚠️🖼️ 📁 🦅 🐈 🐢 🦄 🚦 🔴 🟡 🟢📌 🔍 🕒 🔑
 
 
 <details>
   <summary>📌 Ajuda para Preenchimento da Documentação</summary>
 
 **Esta área serve para ajuda e poderá ser removida em documentações futuras** 
-  
+
+📊 📋 📝 ⭐ ✏️ 🎯 💡 ❗ ✅ ❌ 💻 🌐 🛠️ ⚠️🖼️ 📁 🦅 🐈 🐢 🦄 🚦 🔴 🟡 🟢📌 🔍 🕒 🔑
+
 <details>
   <summary><strong>🖼️ Como Inserir Imagens</strong></summary>
 
@@ -88,6 +89,9 @@ markdown
 - Terceiro item
 
 </details>
+
+---
+
 </details>
 
 ## **⭐ Descrição**
@@ -108,6 +112,7 @@ Descreva brevemente o objetivo do teste neste paragrafo. Seja descritivo com os 
 Explique como o conteúdo está organizado no repositório para facilitar a navegação. Não seja tão descritivo nesse ponto, apenas saliente os principais arquivos que foram utilizados e as suas relações:
 
 **Exemplo:**
+```
 /libraries
   /nrf24l01
     - common_radio.h
@@ -125,7 +130,7 @@ Explique como o conteúdo está organizado no repositório para facilitar a nave
 /src
   - main.cpp
   - boardConfig.h
-
+```
 
 --- 
 
@@ -259,8 +264,10 @@ Legenda:
 - Adicionalmente, envie revisões para [iOsnaaente](https://github.com/iOsnaaente).
 
 
+
+
 <p align="center">
-  :octocat: Desenvolvedores/Contribuintes :octocat:
+  <strong><span style="font-size: 24px;">:octocat: Desenvolvedores/Contribuintes :octocat:</span></strong>
 </p>
 
 <p align="center">
