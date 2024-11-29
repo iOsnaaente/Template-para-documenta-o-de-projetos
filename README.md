@@ -1,7 +1,5 @@
 # <strong>Documentação para os testes de Hardware</strong>
 
-
-
 <details>
   <summary>📌 Ajuda para Preenchimento da Documentação</summary>
 
@@ -48,7 +46,6 @@ markdown
 | UC01  | Comunicação funcional com alcance de 20m     | Sim                      | Sinal instável em ambientes com muitas barreiras. |
 | UC02  | Resposta do motor inferior a 80ms            | Sim                      | Precisão adequada em movimentações rápidas.      |
 
----
 
 </details>
 
@@ -67,8 +64,7 @@ markdown
 1. Item 1
 2. Item 2
 3. Item 3
-
----
+   
 
 </details>
 
@@ -90,8 +86,6 @@ markdown
 
 </details>
 
----
-
 </details>
 
 ## **⭐ Descrição**
@@ -102,12 +96,9 @@ Descreva brevemente o objetivo do teste neste paragrafo. Seja descritivo com os 
 - UC02 - Descreve o segundo teste e obejtivo;
 - UC0N - Descreva o enésimo teste e objetivo. 
 
-----
 
 
-## 🛠️ Como usar
-
-### 📁 Estrutura do Repositório
+## 📁 Estrutura do Repositório
 
 Explique como o conteúdo está organizado no repositório para facilitar a navegação. Não seja tão descritivo nesse ponto, apenas saliente os principais arquivos que foram utilizados e as suas relações:
 
@@ -132,9 +123,8 @@ Explique como o conteúdo está organizado no repositório para facilitar a nave
   - boardConfig.h
 ```
 
---- 
 
-### 🖥️ Dependências  
+## 🖥️ Dependências  
 1. **Ambientes de Programação:**  
    - Liste os ambientes utilizados, como IDEs, ferramentas de desenvolvimento ou sistemas operacionais compatíveis.  
      Exemplo:  
@@ -172,10 +162,9 @@ bash
      - **Dependências instaladas:** (como pacotes Python: pip install -r requirements.txt)  
      - **Hardware conectado:** Indique portas e conexões necessárias.  
      - **Configurações iniciais:** Exemplo: "Configure o arquivo config.json com seus dados."  
----
 
 
-### 🔑 Executando os Testes:  
+## 🛠️ Como usar 
 
 #### 📋 Rotina dos testes:  
 
@@ -201,8 +190,6 @@ bash
 Neste tópico, descreva como é possível executar os testes realizados para replicar os resultados descritos acima. 
 Liste os principais casos de uso dos itens a serem testados, especificando claramente o objetivo de cada um.
 
-
----
 
 
 ## **✅ Conclusão do(s) teste(s)**
@@ -236,7 +223,7 @@ Com base nos resultados da tabela acima, descreva em um paragrafo as conclusões
 - **UC02:** O motor apresentou uma resposta inferior a 80ms, atendendo às expectativas de precisão em movimentações rápidas. Isso confirma a adequação do controle implementado para aplicações que exigem alta reatividade.  
 - **UC0N:** A latência medida de 45ms entre transmissões Modbus demonstrou consistência em ambientes controlados, garantindo que o sistema opere dentro dos limites aceitáveis para aplicações industriais.  
 
----
+
 
 **Necessidade de Novos Testes**
 
